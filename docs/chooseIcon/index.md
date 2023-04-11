@@ -1,6 +1,16 @@
 ## 图标选择器
-
 用户点击按钮，弹出框显示所有图标，点击图标可以复制图标代码
+
+## 按需引入
+
+```javascript
+// 按需引入chooseIcon组件
+import chooseIcon from 'imooc-element-components-dang/chooseIcon'
+import 'imooc-element-components-dang/chooseIcon/style.css'
+
+//main.ts
+app.use(chooseIcon)
+```
 
 ### 基本用法
 <br>

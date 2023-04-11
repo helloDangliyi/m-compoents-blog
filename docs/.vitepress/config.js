@@ -12,8 +12,50 @@ module.exports= {
         nav:[
             {
                 // 导航名称
-                text:'首页'
-            }
+                text:'首页',
+                // 跳转项目的路由
+                link:'/'
+            },
+            {
+                // 导航名称
+                text:'介绍',
+                // 跳转项目的路由
+                link:'/intro/'
+            },
+            {
+                // 导航名称
+                text:'Github站点',
+                // 跳转项目的路由:下面的页面并没有显示成功
+                link:'https://hellodangliyi.github.io/imooc-element-components-web/',
+                target:'_blank'
+            },
+            {
+                // 导航名称
+                text:'Gieet站点',
+                // 跳转项目的路由:下面的页面并没有显示成功
+                link:'https://hellodangliyi.github.io/imooc-element-components-web/',
+                target:'_blank'
+            },
+        ],
+        // 侧边导航
+        sidebar:[
+            {
+                text:'介绍',
+                link:'/intro/',
+            },
+            {
+                text:'快速上手',
+                link:'/quickStart/',
+            },
+            {
+                text:'图标选择器',
+                link:'/chooseIcon/',
+            },
+            {
+                text:'省市区选择',
+                link:'/chooseArea/',
+            },
+
         ]
     }
 }

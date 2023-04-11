@@ -1,19 +1,29 @@
 {
-  "hash": "48e01ea1",
-  "browserHash": "e5697a34",
+  "hash": "e4a6034d",
+  "browserHash": "2dba35c8",
   "optimized": {
     "vue": {
       "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "bd7c1fc2",
+      "fileHash": "75f358eb",
       "needsInterop": false
     },
-    "@theme/index": {
-      "src": "../../../../node_modules/vitepress/dist/client/theme-default/index.js",
-      "file": "@theme_index.js",
-      "fileHash": "4d2c1a13",
+    "element-plus": {
+      "src": "../../../../node_modules/element-plus/es/index.mjs",
+      "file": "element-plus.js",
+      "fileHash": "823daf27",
+      "needsInterop": false
+    },
+    "imooc-element-components-dang": {
+      "src": "../../../../node_modules/imooc-element-components-dang/index.es.js",
+      "file": "imooc-element-components-dang.js",
+      "fileHash": "034c7247",
       "needsInterop": false
     }
   },
-  "chunks": {}
+  "chunks": {
+    "chunk-YJNUPD57": {
+      "file": "chunk-YJNUPD57.js"
+    }
+  }
 }
